@@ -7,7 +7,7 @@ If you want to enable tls on ingress edit `ingress-tls.yml` file and change `<ho
 
 
 Change `<host>` in the `ingress.yml` file. This file resides in the `kubernetes` folder.
-Change `TheYkk` in `deployment.yml` change it with your organization name or user name. The config is case insensitive.
+Change `WH_REPO` env value `TheYkk` in `deployment.yml`, change it with your organization name or user name. The config is case insensitive.
 
 ```
 kubectl apply -f kubernetes/deployment.yml
