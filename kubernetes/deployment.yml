@@ -18,7 +18,7 @@ spec:
       serviceAccountName: argo
       containers:
       - name: argo-webhook
-        image: theykk/argo-workflow:0.1.0
+        image: theykk/argo-workflow:0.3.0
         env:
           - name: WH_REPO
             value: "TheYkk"
