@@ -4,8 +4,8 @@ metadata:
   name: argo-webhook-ingress
   namespace: argo
   annotations:
-    ingress.kubernetes.io/ssl-redirect: 'true'
-    ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/ssl-redirect: 'true'
+    nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
   - host: <host>
