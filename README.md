@@ -25,7 +25,7 @@ With generated ssh-key we need to store our secret key in kubernetes, to do that
 
 ## Usage
 Once deployed, add a webhook to your bitbucket repositories `https://<your-argo-domain>/webhook`.
-
+![bitbucket](./hook.png)
 ### ingress
 Change the url in the ingress before deploying. This Ingress will route traffic from your Argo domain to the Argo CI implementation, Bitbucket will use this domain as a webhook.
 
